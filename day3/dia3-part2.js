@@ -19,7 +19,6 @@ myArray.map((element, index) => {
     }
 
     if(doFlag===true && element.toString() != 'do()' && element.toString() != `don't()`){
-        console.log ('entro ' );
     const reN1 = /\d{1,3},/;
     const reN2 = /,\d{1,3}/;
    
